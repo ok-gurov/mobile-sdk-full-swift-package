@@ -11,6 +11,6 @@ A native iOS SDK for working with the 2GIS map.
   spec.authors             = { 'DoubleGIS LLC' => 'support@2gis.ru' }
   spec.platform            = :ios, "12.0"
   spec.source              = { :http => 'https://artifactory.2gis.dev/sdk-ios-release/#{version.to_s}/Release/DGisFullSDK.zip' }
-  spec.vendored_frameworks = 'DGis.xcframework'
+  spec.vendored_frameworks = 'DGisFullSDK.xcframework'
 
 end
