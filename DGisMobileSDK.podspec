@@ -10,7 +10,7 @@ A native iOS SDK for working with the 2GIS map.
   spec.license             = { :type => 'Proprietary', :text => 'https://law.2gis.ru/api-rules/ 2021 © DoubleGIS. All rights reserved.' }
   spec.authors             = { 'DoubleGIS LLC' => 'support@2gis.ru' }
   spec.platform            = :ios, "12.0"
-  spec.source              = { :http => 'https://artifactory.2gis.dev/sdk-ios-release/#{version.to_s}/Release/DGisFullSDK.zip' }
+  spec.source              = { :http => 'https://dl.dropboxusercontent.com/s/rd8giknl0pbsy39/DGisFullSDK.zip' }
   spec.vendored_frameworks = 'DGisFullSDK.xcframework'
 
 end
